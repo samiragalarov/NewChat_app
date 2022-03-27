@@ -1,0 +1,91 @@
+.userbox{
+    width: 100%;
+    height: 57px;
+    background-color: rgb(30, 51, 167); 
+    display: flex;
+    border-bottom: 0.8px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.userbox.userStyle{
+    background-color: rgb(10, 20, 71); 
+
+}
+.userboxPhoto{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.userboxPhoto .userCircle{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+}
+.postImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.check{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(33, 146, 33);
+    bottom: 0px;
+    right:  0px;
+    border-radius: 50%;
+    display: none;
+
+
+}
+.check.dot{
+    display: inline-block;
+}
+
+.userboxname{
+    width: 77%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.userName{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+
+}
+.userName p{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.userLastmes{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+
+}
+.userLastmes p{
+    color: white;
+    font-weight: 5;
+    font-size: 15px;
+
+
+
+}

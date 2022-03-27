@@ -1,0 +1,82 @@
+.Prop{
+    width: 150px;
+    height: 170px;
+    background-color: rgb(83, 83, 204);
+    position: absolute;
+    bottom: -170px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+
+}
+.propName{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    border-bottom: 1px solid black  ;
+
+}
+.propCircle{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.propCircle div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+
+}
+.propmainName{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+
+}
+.propmainName{
+    padding-top: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight:500;
+    color: white;
+}
+
+.propProfile{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+
+}
+.propLogout{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+
+
+
+}

@@ -1,0 +1,29 @@
+.myMessage{
+    width: 100%;
+    min-height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-right: 13px;
+    flex-direction: column;
+}
+.myMessagebox{
+   
+    min-width: 40px;
+    max-width: 400px;
+    height: fit-content;
+    background-color: rgb(30, 51, 167);
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: white;
+    text-align: start;
+}
+.myMessage p{
+    color: rgb(124, 121, 121);
+    font-size: smaller;
+    margin-top: 3px;
+
+}

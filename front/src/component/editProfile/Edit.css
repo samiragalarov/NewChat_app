@@ -1,0 +1,205 @@
+.editbox{
+    width: 52%;
+    height: 450px;
+    
+    z-index: 3;
+    display: fixed;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+
+
+}
+.editbox.nonedisplay{
+    display: none;
+}
+
+
+/*column1  */
+.editCol1{
+    width: 100%;
+    height: 82%;
+
+    display: flex;
+    
+    
+
+}
+.ImgSection{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(226, 232, 238);
+    display: flex;
+    flex-direction: column;
+
+}
+.ImgSection .ImgSectionInner{
+    width: 100%;
+    height: 70%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ImgSectionInner .editCircle{
+    width: 75%;
+    height: 80%;
+    background-color: rgb(14, 80, 185);
+    bottom: 0px;
+    right:  0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ImgSectionInner .editCircle  label{
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.ImgSection .ImgSectionText{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ImgSection .ImgSectionText p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(56, 13, 175);
+    border: 2px solid black;
+
+
+}
+.InputSection{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(226, 232, 238);
+    display: flex;
+    flex-direction: column;
+
+
+}
+.closeButton{
+    width: 100%;
+    display: flex;
+    height:10% ;
+    background-color: rgb(226, 232, 238);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.closeButton div{
+    width: 30px;
+    height: 100%;
+    background-color: rgb(30, 51, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+.InputSection1{
+    width: 100%;
+    display: flex;
+    height:25% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.InputSection1 input{
+    width: 90%;
+    height: 50%;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.InputSection2{
+    width: 100%;
+    display: flex;
+    height:25% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.InputSection2 input{
+    width: 90%;
+    height: 50%;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.InputSection3{
+    width: 100%;
+    display: flex;
+    height:40% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.InputSection3 textarea{
+    width: 90%;
+    height: 60%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* column2 */
+.editCol2{
+    width: 100%;
+    height: 18%;
+    background-color: rgb(226, 232, 238);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+}
+.EditButton{
+    width: 20%;
+    height: 60%;
+     background-color: rgb(30, 51, 167);
+    margin-right: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+ 
+}
+
