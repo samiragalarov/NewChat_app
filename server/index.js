@@ -11,7 +11,7 @@ const multer = require("multer");
 require("dotenv").config()
 
 
-////
+
 
 const server = require('http').createServer(app)
 const io = require('socket.io')(server ,{cors :{origin : "*"}})
@@ -21,7 +21,7 @@ server.listen(process.env.PORT || 8800 ,() =>{
 })
 
 
-////
+
 
 
 app.use(express.json());
@@ -29,13 +29,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-// app.use(
-//   cors({
-//     origin: "https://chat-appsamir.herokuapp.com/", // <-- location of the react app were connecting to
-//     credentials: true,
-//   })
-// );
-//app.use(cors())
+
 
 mongoose
   .connect('mongodb+srv://samir:test1234@cluster0.1v5vw.mongodb.net/ChattDb?retryWrites=true&w=majority', {
@@ -62,24 +56,7 @@ app.post("/upload", upload.single("file"), (req, res) => {
   res.status(200).json("File has been uploaded");
 });
 
-//////////////////////////////////////
 
-// const io = require("socket.io")(process.env.PORT || 8900, {
-//   cors: {
-//       origin: "https://chat-appsamir.herokuapp.com/",
-//       credentials : true,
-//       transports: ["websocket"]
-//   },
-// });
-
-
-// const io = require("socket.io")(process.env.PORT || 8900, {
-//   cors: {
-//       origin: "https://chat-appsamir.herokuapp.com/",
-//       credentials : true,
-//       transports: ["websocket"]
-//   },
-// });
 
 
 io.on("connection", (socket) => {
@@ -110,10 +87,6 @@ io.on("connection", (socket) => {
 
 
 
-// const io = socketIO(server);
-
-
-/////////////////////////////
 
 app.use(authRouthe)
 app.use(userRouthe)
@@ -125,8 +98,4 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'front/build', 'index.html'));
 });
 
-
-
-// app.listen(process.env.PORT || 8800, () => {
-//   console.log("Server Has Started");
-// }); 
+ 
